@@ -62,16 +62,16 @@ A series of SQL queries were developed to address specific business questions, p
 
 ## Technologies Used
 
-* **SQL (PostgreSQL/MySQL):** Utilized for all database management, data manipulation, and querying operations.
-* **Database Client:** A SQL client (e.g., DBeaver, pgAdmin, MySQL Workbench) is used to execute the queries.
+* **SQL (PostgreSQL):** Utilized for all database management, data manipulation, and querying operations.
+* **Database Client:** A SQL client (pgAdmin) is used to execute the queries.
 * **Data Source:** The project implicitly relies on retail sales data, typically loaded from a CSV file into the database.
 
 ## How to Run This Project
 
 To replicate this analysis:
-1.  **Set up your Database:** Ensure a SQL database (e.g., PostgreSQL, MySQL) is installed and running.
+1.  **Set up your Database:** Ensure a SQL database ( PostgreSQL) is installed and running.
 2.  **Create the Database:** Execute the SQL command to create the `sales_project` database.
 3.  **Connect to the Database:** Connect your SQL client to the newly created database.
 4.  **Create the Table:** Run the SQL DDL statement to define the `retail_sales` table structure.
-5.  **Load Data:** Import your retail sales data (from a CSV file) into the `retail_sales` table using your database's specific import utility (e.g., `COPY` command for PostgreSQL or `LOAD DATA INFILE` for MySQL).
+5.  **Load Data:** Import your retail sales data (from a CSV file) into the `retail_sales` table using your database's specific import utility.
 6.  **Execute Queries:** Run the provided SQL queries for data cleaning, exploration, and analysis sequentially to reproduce the insights.
